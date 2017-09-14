@@ -20,5 +20,6 @@ urlpatterns = [
 	url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^test/', admin.site.urls),
+    url(r'^test1/', admin.site.urls),
 
 ]
